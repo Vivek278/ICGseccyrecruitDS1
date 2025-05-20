@@ -32,7 +32,7 @@ Website is Live at https://product-club-secy-task.vercel.app/
 ### 1️⃣ Backend (FastAPI)
 
 #### 📁 Directory: `root/`  
-Ensure you have your `main.py`, `random_forest_model.pkl`, and `minmax_scaler.pkl` in the same directory.
+Ensure you have your `main.py`, `Detector.pkl`, and `scaler.pkl` in the same directory.
 
 #### 🔧 Install dependencies
 
