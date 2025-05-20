@@ -22,7 +22,7 @@ Website is Live at https://product-club-secy-task.vercel.app/
 |-----------|--------------------|
 | Frontend  | React              |
 | Backend   | FastAPI            |
-| ML Model  | RandomForestClassifier (scikit-learn) |
+| ML Model  | XGboost (scikit-learn) |
 | Hosting   | Render and Versel |
 
 ---
