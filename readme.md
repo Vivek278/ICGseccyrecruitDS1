@@ -9,7 +9,7 @@ Website is Live at https://product-club-secy-task.vercel.app/
 
 ## 🚀 Features
 
-- Predict fraud from 30 numerical inputs
+- Predict anomaly from 30 numerical inputs
 - Clean, responsive UI built with React
 - Fast and lightweight API using FastAPI
 - ML model integrated using `joblib`
