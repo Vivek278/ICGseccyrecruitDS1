@@ -4,7 +4,8 @@ This is a full-stack machine learning web application where users can input **30
 
 - 🧠 **Backend**: FastAPI with a trained Random Forest model  
 - 💻 **Frontend**: React-based user interface  
-Website is Live at [[https://product-club-secy-task.vercel.app/](https://ic-gseccyrecruit-ds-1.vercel.app/)](https://ic-gseccyrecruit-ds-1.vercel.app/)
+Website is Live at [ICG SeccyRecruit DS1](https://ic-gseccyrecruit-ds-1.vercel.app/)
+
 ---
 
 ## 🚀 Features
