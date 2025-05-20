@@ -1,4 +1,4 @@
-# 🔍 Fraud Detection Prediction App
+# 🔍 Anomaly Prediction App
 
 This is a full-stack machine learning web application where users can input **30 numerical features** and get a classification prediction (`fraud` or `not fraud`).
 
