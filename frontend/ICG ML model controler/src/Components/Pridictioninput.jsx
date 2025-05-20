@@ -9,6 +9,9 @@ function PredictionInput() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // Custom feature labels: Time, F1 to F28, PowerUsage
+  const featureLabels = ['Time', ...Array.from({ length: 28 }, (_, i) => `F${i + 1}`), 'PowerUsage'];
+
   const handleChange = (index, value) => {
     const newFeatures = [...features];
     newFeatures[index] = value;
@@ -19,10 +22,8 @@ function PredictionInput() {
     setLineInput(e.target.value);
   };
 
-
   const getFeaturesArray = () => {
     if (useLineInput) {
-    
       const parts = lineInput.split(',').map(s => s.trim()).filter(Boolean);
       if (parts.length !== 30) {
         throw new Error('Please enter exactly 30 feature values separated by commas.');
@@ -102,13 +103,13 @@ function PredictionInput() {
         ) : (
           features.map((value, idx) => (
             <div key={idx} className="input-group">
-              <label>Feature {idx + 1}</label>
+              <label>{featureLabels[idx]}</label>
               <input
                 type="number"
                 step="any"
                 value={value}
                 onChange={(e) => handleChange(idx, e.target.value)}
-                placeholder={`Enter value for F${idx + 1}`}
+                placeholder={`Enter value for ${featureLabels[idx]}`}
                 required
               />
             </div>
